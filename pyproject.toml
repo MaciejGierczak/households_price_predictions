@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "szczecin-house-prices"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+lazypredict = "^0.2.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
